@@ -18,10 +18,10 @@ const invitationConfig = {
     logo: "./public/images/logo_dulcinea.png",
   },
   event: {
-    date: "Jueves 4 de junio",
+    date: "Jueves 5 de junio",
     time: "5:00 p. m.",
     // Cambia esta fecha/hora para actualizar la cuenta regresiva del sitio.
-    countdownTarget: "2026-06-04T17:00:00",
+    countdownTarget: "2026-06-05T17:00:00",
     locationTitle: "Encuéntranos fácilmente en Pichari.",
     locationDescription:
       "Te dejamos una referencia clara para que puedas llegar fácilmente a Dulcinea. La ubicación es referencial y puedes abrir la zona en Google Maps.",
@@ -35,7 +35,7 @@ const invitationConfig = {
     detailsMapText: "Abre la zona en Google Maps y guíate con la referencia.",
     specialtiesCount: "2 especialidades",
     specialtiesNote: "Sodas Italianas y Popping Boba",
-    aboutDateShort: "4 de junio",
+    aboutDateShort: "5 de junio",
     aboutDateNote: "Fecha de apertura",
     aboutTimeShort: "5:00 p. m.",
     aboutTimeNote: "Hora de inicio",
