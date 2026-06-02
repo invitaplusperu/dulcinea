@@ -18,7 +18,7 @@ const invitationConfig = {
     logo: "./public/images/logo_dulcinea.png",
   },
   event: {
-    date: "Jueves 5 de junio",
+    date: "Viernes 5 de junio",
     time: "5:00 p. m.",
     // Cambia esta fecha/hora para actualizar la cuenta regresiva del sitio.
     countdownTarget: "2026-06-05T17:00:00",
