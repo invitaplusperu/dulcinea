@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dulcinea | Grand Opening</title>
+    <meta
+      name="description"
+      content="Invitación de inauguración para Dulcinea - Heladería & Cafetería."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Nunito+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="welcomeScreen" class="welcome-screen">
+      <div class="welcome-overlay"></div>
+
+      <div class="welcome-card">
+        <img src="./public/images/logo_dulcinea.png" alt="Dulcinea" class="welcome-logo" />
+        <span class="welcome-eyebrow">GRAN INAUGURACIÓN</span>
+        <h1>Dulcinea</h1>
+        <p>Heladería & Cafetería</p>
+        <button id="openInvitationBtn" class="open-invitation-btn" type="button">
+          Toca para abrir la invitación
+        </button>
+      </div>
+    </div>
+
+    <section class="hero-inauguracion" id="inicio">
+      <header class="hero-navbar" aria-label="Navegación principal">
+        <a href="#inicio" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="./public/images/logo_dulcinea.png" alt="" class="brand-logo" />
+          </span>
+          <span>Dulcinea</span>
+        </a>
+
+        <nav class="nav-links">
+          <a href="#inicio" class="active">Home</a>
+          <a href="#especialidades">Especialidades</a>
+          <a href="#gallery">Galería</a>
+          <a href="#contact">Contáctanos</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a
+            class="social-btn"
+            data-instagram-link
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+          >
+            <svg
+              class="social-icon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 1.8A3.7 3.7 0 0 0 3.8 7.5v9a3.7 3.7 0 0 0 3.7 3.7h9a3.7 3.7 0 0 0 3.7-3.7v-9a3.7 3.7 0 0 0-3.7-3.7h-9Zm9.45 1.35a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4ZM12 6.9A5.1 5.1 0 1 1 6.9 12 5.1 5.1 0 0 1 12 6.9Zm0 1.8A3.3 3.3 0 1 0 15.3 12 3.3 3.3 0 0 0 12 8.7Z"
+              />
+            </svg>
+          </a>
+          <a
+            class="social-btn"
+            data-facebook-link
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Facebook"
+          >
+            <svg
+              class="social-icon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M13.4 22v-8.2h2.76l.41-3.2H13.4V8.56c0-.93.25-1.56 1.58-1.56h1.7V4.14A22.8 22.8 0 0 0 14.2 4c-2.46 0-4.14 1.5-4.14 4.27v2.38H7.28v3.2h2.78V22h3.34Z"
+              />
+            </svg>
+          </a>
+          <a href="#confirmar" class="rsvp-btn">RSVP ♥</a>
+        </div>
+      </header>
+
+      <div class="hero-shell">
+        <p class="hero-mobile-eyebrow">GRAN INAUGURACIÓN</p>
+        <article class="hero-content surface-card">
+          <p class="eyebrow" data-opening-label></p>
+          <h1 class="hero-name" data-business-name></h1>
+          <p class="hero-subtitle" data-business-tagline></p>
+          <p class="hero-datetime" data-event-datetime></p>
+          <p class="hero-message" data-hero-message></p>
+
+          <div class="hero-meta">
+            <div class="meta-pill">
+              <span>Fecha</span>
+              <strong data-event-date></strong>
+            </div>
+            <div class="meta-pill">
+              <span>Hora</span>
+              <strong data-event-time></strong>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#countdown">Ver detalles</a>
+            <a
+              class="button button-secondary hero-icon-button"
+              data-whatsapp-link
+              href="#confirmar"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Confirmar asistencia por WhatsApp"
+              title="Confirmar asistencia"
+            >
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.53 0 .2 5.3.2 11.83c0 2.08.55 4.12 1.6 5.92L0 24l6.45-1.69a11.9 11.9 0 0 0 5.62 1.43h.01c6.53 0 11.86-5.31 11.87-11.84A11.75 11.75 0 0 0 20.52 3.48ZM12.08 21.7h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.22-3.83 1 .99-3.74-.24-.39a9.82 9.82 0 0 1-1.51-5.13c0-5.43 4.45-9.85 9.92-9.85 2.65 0 5.13 1.03 6.99 2.89a9.76 9.76 0 0 1 2.9 6.97c0 5.43-4.46 9.85-9.81 9.85Zm5.42-7.38c-.3-.15-1.78-.88-2.05-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.96 1.18-.17.2-.35.23-.65.08-.3-.15-1.27-.47-2.42-1.5a9.06 9.06 0 0 1-1.67-2.08c-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.08-.15-.68-1.63-.93-2.23-.24-.58-.48-.5-.68-.51h-.58c-.2 0-.53.08-.8.38-.27.3-1.03 1.01-1.03 2.46 0 1.45 1.06 2.85 1.2 3.05.15.2 2.1 3.2 5.1 4.49.71.31 1.27.5 1.7.64.72.23 1.37.2 1.88.12.57-.08 1.78-.73 2.03-1.43.25-.7.25-1.31.17-1.43-.07-.12-.27-.2-.57-.35Z" />
+              </svg>
+            </a>
+            <a
+              class="button button-ghost hero-icon-button"
+              data-maps-link
+              href="#ubicacion"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Ver ubicación"
+              title="Ver ubicación"
+            >
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2.25c-3.87 0-7 3.03-7 6.78 0 4.99 5.78 11.59 6.02 11.87a1.28 1.28 0 0 0 1.96 0C13.22 20.62 19 14.02 19 9.03c0-3.75-3.13-6.78-7-6.78Zm0 9.37a2.63 2.63 0 1 1 0-5.25 2.63 2.63 0 0 1 0 5.25Z" />
+              </svg>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <a class="scroll-indicator" href="#detalles" aria-label="Deslizar hacia la siguiente sección">
+        <span class="scroll-indicator__icon"></span>
+        <small>Desliza</small>
+      </a>
+    </section>
+
+    <main>
+      <section class="section countdown-section" id="countdown">
+        <div class="section-shell">
+          <div class="countdown-card surface-card">
+            <div class="section-header countdown-header section-header--compact">
+              <p class="section-label">Cuenta regresiva</p>
+              <h2>Faltan pocos días para la gran inauguración</h2>
+            </div>
+
+            <div class="countdown-grid">
+              <article class="countdown-item">
+                <span class="countdown-value" data-countdown-days>00</span>
+                <span class="countdown-label">Días</span>
+              </article>
+              <article class="countdown-item">
+                <span class="countdown-value" data-countdown-hours>00</span>
+                <span class="countdown-label">Horas</span>
+              </article>
+              <article class="countdown-item">
+                <span class="countdown-value" data-countdown-minutes>00</span>
+                <span class="countdown-label">Minutos</span>
+              </article>
+              <article class="countdown-item">
+                <span class="countdown-value" data-countdown-seconds>00</span>
+                <span class="countdown-label">Segundos</span>
+              </article>
+            </div>
+
+            <p class="countdown-note" data-countdown-note>
+              Preparando cada detalle para recibirte en Dulcinea.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-anchor" id="about" aria-hidden="true"></div>
+      <section class="section" id="detalles">
+        <div class="section-shell">
+          <div class="section-header">
+            <p class="section-label">Detalles del evento</p>
+            <h2>Una tarde especial para compartir algo dulce.</h2>
+            <p>
+              Reserva la fecha y acompáñanos a celebrar el inicio de una nueva experiencia
+              pensada para disfrutar entre amigos y familia.
+            </p>
+          </div>
+
+          <div class="details-grid event-details-grid">
+            <article class="info-card event-card">
+              <p class="info-card__label">Fecha</p>
+              <h3 data-event-date></h3>
+              <p>Te esperamos para brindar por este nuevo comienzo.</p>
+            </article>
+
+            <article class="info-card event-card">
+              <p class="info-card__label">Hora</p>
+              <h3 data-event-time></h3>
+              <p>Llega con tiempo para disfrutar promociones y sorpresas.</p>
+            </article>
+
+            <article class="info-card event-card">
+              <p class="info-card__label">Lugar</p>
+              <h3 data-details-address></h3>
+              <p data-details-place-note></p>
+            </article>
+
+            <article class="info-card info-card--accent event-card">
+              <p class="info-card__label">Mapa</p>
+              <h3>Cómo llegar</h3>
+              <p data-details-map-text></p>
+              <a
+                class="button button-primary button-small"
+                data-maps-link
+                href="#ubicacion"
+                target="_blank"
+                rel="noreferrer"
+                data-map-button-text
+              >
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="sobre">
+        <div class="section-shell about-grid">
+          <div class="section-header section-header--compact">
+            <p class="section-label">Sobre la inauguración</p>
+            <h2>Un rincón dulce y acogedor para compartir.</h2>
+            <p data-about-text></p>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="especialidades" class="section specialties-section">
+        <div class="section-shell">
+          <div class="section-header specialties-header">
+            <p class="section-label">Especialidades</p>
+            <h2>Nuestra especialidad</h2>
+            <p>
+              Además de nuestros productos clásicos, Dulcinea presenta opciones especiales para
+              disfrutar en esta gran inauguración.
+            </p>
+          </div>
+
+          <div class="specialties-grid" data-specialties-grid></div>
+        </div>
+      </section>
+
+      <div class="section-anchor" id="menu" aria-hidden="true"></div>
+      <section class="section" id="experiencias">
+        <div class="section-shell">
+          <div class="section-header section-header--compact">
+            <p class="section-label">Lo que encontrarás</p>
+            <h2>Sabores, detalles y momentos hechos para compartir.</h2>
+            <p>
+              Preparamos una selección de experiencias para que la inauguración se sienta cálida,
+              alegre y deliciosa desde el primer momento.
+            </p>
+          </div>
+
+          <div class="feature-grid" data-features-grid></div>
+        </div>
+      </section>
+
+      <div class="section-anchor" id="gallery" aria-hidden="true"></div>
+      <section class="section section-soft" id="galeria">
+        <div class="section-shell">
+          <div class="section-header section-header--compact">
+            <p class="section-label">Galería</p>
+            <h2>Una vista previa del universo visual de Dulcinea.</h2>
+            <p>
+              Puedes reemplazar estas imágenes más adelante desde la configuración para mostrar tus
+              productos, el local o material promocional.
+            </p>
+          </div>
+
+          <div class="gallery-grid" data-gallery-grid></div>
+        </div>
+      </section>
+
+      <section class="section" id="ubicacion">
+        <div class="section-shell location-grid">
+          <div class="location-copy">
+            <div class="section-header section-header--compact">
+              <p class="section-label">Ubicación</p>
+              <h2 data-location-title></h2>
+              <p data-location-description></p>
+            </div>
+
+            <div class="location-card surface-card">
+              <p class="info-card__label">Dirección referencial</p>
+              <h3 data-event-address></h3>
+              <div class="reference-box">
+                <span class="reference-chip">Referencia</span>
+                <p data-address-reference></p>
+              </div>
+              <div class="location-actions">
+                <a
+                  class="button button-primary"
+                  data-maps-link
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-map-button-text
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-frame surface-card" data-map-frame></div>
+        </div>
+      </section>
+
+      <div class="section-anchor" id="contact" aria-hidden="true"></div>
+      <section class="section section-soft" id="confirmar">
+        <div class="section-shell">
+          <div class="rsvp-card surface-card">
+            <div class="section-header section-header--compact">
+              <p class="section-label">Confirmar asistencia</p>
+              <h2>Nos encantará celebrar contigo esta inauguración.</h2>
+              <p>
+                Escríbenos, llámanos o abre la ubicación y acompáñanos en este comienzo tan
+                especial para Dulcinea.
+              </p>
+            </div>
+
+            <div class="rsvp-actions">
+              <a
+                class="button button-primary"
+                data-whatsapp-link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Confirmar por WhatsApp
+              </a>
+              <a class="button button-secondary" data-phone-link href="#">Llamar</a>
+              <a
+                class="button button-ghost"
+                data-maps-link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver ubicación
+              </a>
+            </div>
+
+            <div class="contact-socials" aria-label="Redes y contacto directo">
+              <a
+                class="contact-social-btn contact-social-btn--whatsapp"
+                data-whatsapp-link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="WhatsApp"
+              >
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.53 0 .2 5.3.2 11.83c0 2.08.55 4.12 1.6 5.92L0 24l6.45-1.69a11.9 11.9 0 0 0 5.62 1.43h.01c6.53 0 11.86-5.31 11.87-11.84A11.75 11.75 0 0 0 20.52 3.48ZM12.08 21.7h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.22-3.83 1 .99-3.74-.24-.39a9.82 9.82 0 0 1-1.51-5.13c0-5.43 4.45-9.85 9.92-9.85 2.65 0 5.13 1.03 6.99 2.89a9.76 9.76 0 0 1 2.9 6.97c0 5.43-4.46 9.85-9.81 9.85Zm5.42-7.38c-.3-.15-1.78-.88-2.05-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.96 1.18-.17.2-.35.23-.65.08-.3-.15-1.27-.47-2.42-1.5a9.06 9.06 0 0 1-1.67-2.08c-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.08-.15-.68-1.63-.93-2.23-.24-.58-.48-.5-.68-.51h-.58c-.2 0-.53.08-.8.38-.27.3-1.03 1.01-1.03 2.46 0 1.45 1.06 2.85 1.2 3.05.15.2 2.1 3.2 5.1 4.49.71.31 1.27.5 1.7.64.72.23 1.37.2 1.88.12.57-.08 1.78-.73 2.03-1.43.25-.7.25-1.31.17-1.43-.07-.12-.27-.2-.57-.35Z" />
+                </svg>
+              </a>
+              <a
+                class="contact-social-btn"
+                data-instagram-link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+              >
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 1.8A3.7 3.7 0 0 0 3.8 7.5v9a3.7 3.7 0 0 0 3.7 3.7h9a3.7 3.7 0 0 0 3.7-3.7v-9a3.7 3.7 0 0 0-3.7-3.7h-9Zm9.45 1.35a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4ZM12 6.9A5.1 5.1 0 1 1 6.9 12 5.1 5.1 0 0 1 12 6.9Zm0 1.8A3.3 3.3 0 1 0 15.3 12 3.3 3.3 0 0 0 12 8.7Z" />
+                </svg>
+              </a>
+              <a
+                class="contact-social-btn"
+                data-facebook-link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+              >
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M13.4 22v-8.2h2.76l.41-3.2H13.4V8.56c0-.93.25-1.56 1.58-1.56h1.7V4.14A22.8 22.8 0 0 0 14.2 4c-2.46 0-4.14 1.5-4.14 4.27v2.38H7.28v3.2h2.78V22h3.34Z" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="contact-grid">
+              <article class="contact-item">
+                <span>Celular / WhatsApp</span>
+                <strong data-contact-phone></strong>
+              </article>
+              <article class="contact-item">
+                <span>Facebook</span>
+                <strong data-contact-facebook></strong>
+              </article>
+              <article class="contact-item">
+                <span>Instagram</span>
+                <strong data-contact-instagram></strong>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <audio
+      id="backgroundMusic"
+      src="./with_or_with_you.mp3"
+      loop
+      preload="auto"
+      playsinline
+    ></audio>
+
+    <button
+      id="musicToggle"
+      class="music-toggle"
+      type="button"
+      aria-label="Pausar o reproducir música"
+    >
+      ♪ Música
+    </button>
+
+    <footer class="site-footer">
+      <div class="footer-signature">
+        <span class="footer-line" aria-hidden="true"></span>
+
+        <a href="#" class="design-pill" aria-label="Design by Kat">
+          <span class="design-label">DESIGN BY</span>
+          <span class="kat-signature">Kat</span>
+        </a>
+
+        <a href="#" class="studio-logo" aria-label="Studio27">
+          <img src="./public/images/studio27.png" alt="Studio27" />
+        </a>
+
+        <span class="footer-line" aria-hidden="true"></span>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
