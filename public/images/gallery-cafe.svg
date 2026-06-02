@@ -1,0 +1,19 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#FFF8FB"/>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <circle cx="260" cy="250" r="180" fill="#FFD8E7" fill-opacity="0.88"/>
+  <circle cx="1300" cy="960" r="240" fill="#FFECCD" fill-opacity="0.76"/>
+  <rect x="420" y="250" width="760" height="700" rx="64" fill="#FFFDF9" fill-opacity="0.9"/>
+  <rect x="630" y="430" width="340" height="340" rx="36" fill="#E8B086"/>
+  <path d="M970 500H1040C1084.18 500 1120 535.82 1120 580V590C1120 634.18 1084.18 670 1040 670H970V500Z" fill="#F3D7C4"/>
+  <path d="M690 360C690 329.072 715.072 304 746 304H854C884.928 304 910 329.072 910 360V410H690V360Z" fill="#FFE7C2"/>
+  <path d="M710 330C710 330 740 270 790 290C840 310 830 265 890 280" stroke="#C86E62" stroke-width="18" stroke-linecap="round"/>
+  <text x="800" y="915" text-anchor="middle" fill="#6F3A4E" font-family="Georgia, serif" font-size="72" font-weight="700">Cafés</text>
+  <text x="800" y="987" text-anchor="middle" fill="#95596D" font-family="Arial, sans-serif" font-size="36">Placeholder temporal para tu galería</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE7F0"/>
+      <stop offset="1" stop-color="#FFF7E6"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#FFF8FB"/>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <circle cx="290" cy="240" r="180" fill="#FFE8D2" fill-opacity="0.86"/>
+  <circle cx="1320" cy="980" r="230" fill="#FFD9E7" fill-opacity="0.82"/>
+  <rect x="400" y="250" width="800" height="700" rx="64" fill="#FFFDF8" fill-opacity="0.9"/>
+  <circle cx="650" cy="540" r="110" fill="#F9B7CD"/>
+  <circle cx="950" cy="540" r="110" fill="#F6D3E1"/>
+  <rect x="560" y="680" width="480" height="110" rx="55" fill="#FFEAF2"/>
+  <path d="M770 460C770 426.863 796.863 400 830 400H860C893.137 400 920 426.863 920 460V490H770V460Z" fill="#F5D18A"/>
+  <text x="800" y="915" text-anchor="middle" fill="#6F384C" font-family="Georgia, serif" font-size="72" font-weight="700">Momentos</text>
+  <text x="800" y="987" text-anchor="middle" fill="#95596D" font-family="Arial, sans-serif" font-size="36">Placeholder temporal para tu galería</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF2D8"/>
+      <stop offset="1" stop-color="#FFE4EE"/>
+    </linearGradient>
+  </defs>
+</svg>
